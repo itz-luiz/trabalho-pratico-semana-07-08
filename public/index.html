@@ -1,24 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITZ NotíciaZ</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/9a1a3661f4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-        <nav class="navbar">
-            <img class="logo" src="imagens/logo.png" alt="logo">
-            <ul class="menu">
-                <li><a href="#">Política</a></li>
-                <li><a href="#">Esportes</a></li>
-                <li><a href="#">Economia</a></li>
-                <li><a href="#">Tecnologia</a></li>
-            </ul>
-            <button class="login">Login</button>
-        </nav>
-        <main>
-        </main>
+    <nav class="navbar">
+        <img class="logo" src="imagens/logo.png" alt="logo">
+        <ul class="menu">
+            <li><a href="#">Política</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Economia</a></li>
+            <li><a href="#">Tecnologia</a></li>
+        </ul>
+        <div class="button">
+            <a href="login/login.html"><button class="login">Login</button></a>
+        </div>
+    </nav>
+    <main>
+        <h1 class="destaques">Destaques</h1>
+
+        <ul class="lista-noticias">
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/redbull-formula1.png" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>Yuki Tsunoda SUBSTITUI Liam Lawson para o GP do Japão</h1>
+                                <p>Yuki Tsunoda substituirá Liam Lawson na Red Bull a partir do GP do Japão, após
+                                    desempenho insatisfatório do neozelandês nas duas primeiras corridas.</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/studio-ghibli.png" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>Conheça a história do Studio Ghibli - que, sem querer, derreteu o ChatGPT</h1>
+                                <p>Imagens geradas pelo ChatGPT inspiradas no Studio Ghibli causaram sobrecarga nos
+                                    servidores da OpenAI, levando a uma "derretimento" do sistema.</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/mundial-de-clubes.webp" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>Fifa anuncia quase R$ 6 bilhões em premiações para o Mundial de Clubes</h1>
+                                <p>A FIFA anunciou US$ 1 bilhão (cerca de R$ 6 bilhões) em premiações para os 32 clubes
+                                    participantes do Mundial de Clubes de 2025, nos Estados Unidos.</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/gp-do-japao.webp" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>GP do Japão de F1 2025: onde assistir, horários e programação completa</h1>
+                                <p>O GP do Japão de F1 2025 ocorrerá no circuito de Suzuka, com treinos livres,
+                                    classificação e corrida transmitidos pela Band e BandSports; confira horários e
+                                    detalhes.</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/michelle-bolsonaro.png" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>Michelle Bolsonaro lidera disputa ao Senado no DF, diz pesquisa</h1>
+                                <p>Pesquisa aponta Michelle Bolsonaro liderando a disputa ao Senado no DF, com 42,9% das
+                                    intenções de voto, à frente de Ibaneis Rocha e Leila do Vôlei.</p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="noticia">
+                    <figure><a href="#"><img id="imagem-noticia" src="imagens/byd.webp" alt="noticia"></a>
+                        <a class="figcaption" href="#">
+                            <figcaption>
+                                <h1>BYD supera a Tesla com vendas anuais de mais de US$ 100 bilhões</h1>
+                                <p>A chinesa BYD superou a Tesla em vendas anuais, registrando receita superior a US$
+                                    100 bilhões em 2024, consolidando-se como líder no mercado de veículos elétricos.
+                                </p>
+                            </figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <div class="section-container">
+            <div class="redes-sociais-div">
+                <span class="span-redes-sociais">Nossas redes sociais!</span>
+                <ul class="redes-sociais">
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <!-- <ul class="contato">
+                <li><i class="fa-solid fa-envelope"><span>itz.noticiaz@gmail.com</span></i></li>
+                <li></li>
+                <li></li>
+            </ul> -->
+        </div>
+    </footer>
+
+    <div id="copyright">
+        <p>© 2025 ITZ NotíciaZ. Todos os direitos reservados.</p>
+    </div>
+
 </body>
+
 </html>
