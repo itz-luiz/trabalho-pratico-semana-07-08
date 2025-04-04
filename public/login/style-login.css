@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans Display", sans;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.login {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.6);
+    background-color: #f9f9f9;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+span {
+    color: rgb(241, 31, 31);
+}
+
+p {
+    color: #8c8c8c;
+    font-size: 15px;
+}
+
+.asterisco {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.termos {
+    margin-top: 15px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+a:visited {
+    color: #00E;
+}
+
+a.voltar {
+    color: #868686;
+}
+
+.voltar-container {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+}

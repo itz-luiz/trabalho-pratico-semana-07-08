@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --text-dark: #000;
+    --text-white: #fff;
+    --bg-white: #f4f4f4;
+    --bg-dark: #000 ;
+    --body-font: "Noto Sans Display", sans-serif;
+    --navbar-font: "Roboto", sans-serif;
+
+    /* SPACING */
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+
+    --standard-width: 1144px;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-dark);
+    width: 100%;
+    margin: 0;
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAVBAR */
+
+.navbar {
+    font-family: var(--navbar-font);
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: var(--standard-width);
+    padding: 0 var(--spacing-xl);
+    margin: 0 0 var(--spacing-xl) 0;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    color: var(--text-white);
+    margin: 0 var(--spacing-md);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+/* MAIN */
+
+main {
+    margin: 0 10%;
+}
+
